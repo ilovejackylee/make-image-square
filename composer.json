@@ -1,0 +1,21 @@
+{
+    "name": "ilovejackylee/make-image-square",
+    "description": "Compute square canvas size and letterbox padding so an image fits 1:1 without cropping.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://squareimage.run",
+    "keywords": ["square", "image", "padding", "aspect-ratio", "layout"],
+    "authors": [
+        {
+            "name": "ilovejackylee"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MakeImageSquare\\": "src/"
+        }
+    }
+}
