@@ -10,6 +10,22 @@ Useful when you need the math for letterboxing / pillarboxing before you draw to
 composer require ilovejackylee/make-image-square
 ```
 
+From JitPack (Maven):
+
+```xml
+<repositories>
+  <repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+<dependency>
+  <groupId>com.github.ilovejackylee</groupId>
+  <artifactId>make-image-square</artifactId>
+  <version>0.1.1</version>
+</dependency>
+```
+
 ## Usage
 
 ```php
